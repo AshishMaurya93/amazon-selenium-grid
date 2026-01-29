@@ -30,6 +30,7 @@ Start Selenium Grid using Docker:
 
 ```bash
 docker-compose up -d
+```
 
 
 Grid UI:
@@ -37,15 +38,20 @@ Grid UI:
 http://localhost:4444/ui
 
 Running the Tests
+```bash
 mvn clean test
-Jenkins Integration
+```
+
+## Jenkins Integration
+
 Source code pulled from GitHub
 
 Maven used for build and execution
 
 Test results displayed in Jenkins console
 
-Key Highlights
+## Key Highlights
+
 Cross-browser testing
 
 Parallel execution using TestNG
@@ -54,5 +60,5 @@ Docker-based Selenium Grid
 
 Continuous Integration using Jenkins
 
-Author
+## Author
 Ashish Maurya
