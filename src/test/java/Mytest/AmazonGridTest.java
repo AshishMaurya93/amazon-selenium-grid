@@ -35,7 +35,7 @@ public class AmazonGridTest {
     public void verifyAmazonTitle() throws InterruptedException {
     	//Thread.sleep(5000);
         driver.get("https://www.amazon.in");
-        //Thread.sleep(3000);
+        Thread.sleep(3000);
         String title = driver.getTitle();
         System.out.println("Page title is: " + title);
         Assert.assertTrue(title.contains("Amazon"));
