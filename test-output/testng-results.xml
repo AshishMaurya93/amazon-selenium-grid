@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-29T23:53:07 IST" name="Amazon Test Suite" finished-at="2026-01-29T23:53:18 IST" duration-ms="10427">
+  <suite started-at="2026-01-30T00:08:37 IST" name="Amazon Test Suite" finished-at="2026-01-30T00:08:41 IST" duration-ms="4300">
     <groups>
     </groups>
-    <test started-at="2026-01-29T23:53:07 IST" name="Chrome Test" finished-at="2026-01-29T23:53:16 IST" duration-ms="8666">
+    <test started-at="2026-01-30T00:08:37 IST" name="Chrome Test" finished-at="2026-01-30T00:08:39 IST" duration-ms="2063">
       <class name="Mytest.AmazonGridTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Mytest.AmazonGridTest@39529185]" started-at="2026-01-29T23:53:07 IST" name="setup" finished-at="2026-01-29T23:53:08 IST" duration-ms="1157" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Mytest.AmazonGridTest@39529185]" started-at="2026-01-30T00:08:37 IST" name="setup" finished-at="2026-01-30T00:08:38 IST" duration-ms="1156" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyAmazonTitle()[pri:0, instance:Mytest.AmazonGridTest@39529185]" started-at="2026-01-29T23:53:08 IST" name="verifyAmazonTitle" finished-at="2026-01-29T23:53:16 IST" duration-ms="7381" status="PASS">
+        <test-method signature="verifyAmazonLaunch()[pri:0, instance:Mytest.AmazonGridTest@39529185]" started-at="2026-01-30T00:08:38 IST" name="verifyAmazonLaunch" finished-at="2026-01-30T00:08:39 IST" duration-ms="772" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAmazonTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Mytest.AmazonGridTest@39529185]" started-at="2026-01-29T23:53:16 IST" name="tearDown" finished-at="2026-01-29T23:53:16 IST" duration-ms="89" status="PASS">
+        </test-method> <!-- verifyAmazonLaunch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Mytest.AmazonGridTest@39529185]" started-at="2026-01-30T00:08:39 IST" name="tearDown" finished-at="2026-01-30T00:08:39 IST" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Mytest.AmazonGridTest -->
     </test> <!-- Chrome Test -->
-    <test started-at="2026-01-29T23:53:07 IST" name="Edge Test" finished-at="2026-01-29T23:53:16 IST" duration-ms="8753">
+    <test started-at="2026-01-30T00:08:37 IST" name="Edge Test" finished-at="2026-01-30T00:08:40 IST" duration-ms="3153">
       <class name="Mytest.AmazonGridTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Mytest.AmazonGridTest@5b239d7d]" started-at="2026-01-29T23:53:07 IST" name="setup" finished-at="2026-01-29T23:53:08 IST" duration-ms="1240" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Mytest.AmazonGridTest@5b239d7d]" started-at="2026-01-30T00:08:37 IST" name="setup" finished-at="2026-01-30T00:08:38 IST" duration-ms="1274" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,19 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyAmazonTitle()[pri:0, instance:Mytest.AmazonGridTest@5b239d7d]" started-at="2026-01-29T23:53:08 IST" name="verifyAmazonTitle" finished-at="2026-01-29T23:53:16 IST" duration-ms="7388" status="PASS">
+        <test-method signature="verifyAmazonLaunch()[pri:0, instance:Mytest.AmazonGridTest@5b239d7d]" started-at="2026-01-30T00:08:38 IST" name="verifyAmazonLaunch" finished-at="2026-01-30T00:08:40 IST" duration-ms="1746" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAmazonTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Mytest.AmazonGridTest@5b239d7d]" started-at="2026-01-29T23:53:16 IST" name="tearDown" finished-at="2026-01-29T23:53:16 IST" duration-ms="91" status="PASS">
+        </test-method> <!-- verifyAmazonLaunch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Mytest.AmazonGridTest@5b239d7d]" started-at="2026-01-30T00:08:40 IST" name="tearDown" finished-at="2026-01-30T00:08:40 IST" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Mytest.AmazonGridTest -->
     </test> <!-- Edge Test -->
-    <test started-at="2026-01-29T23:53:07 IST" name="Firefox Test" finished-at="2026-01-29T23:53:18 IST" duration-ms="10427">
+    <test started-at="2026-01-30T00:08:37 IST" name="Firefox Test" finished-at="2026-01-30T00:08:41 IST" duration-ms="4300">
       <class name="Mytest.AmazonGridTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Mytest.AmazonGridTest@5876a9af]" started-at="2026-01-29T23:53:07 IST" name="setup" finished-at="2026-01-29T23:53:10 IST" duration-ms="2549" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Mytest.AmazonGridTest@5876a9af]" started-at="2026-01-30T00:08:37 IST" name="setup" finished-at="2026-01-30T00:08:39 IST" duration-ms="2625" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,11 +64,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyAmazonTitle()[pri:0, instance:Mytest.AmazonGridTest@5876a9af]" started-at="2026-01-29T23:53:10 IST" name="verifyAmazonTitle" finished-at="2026-01-29T23:53:17 IST" duration-ms="7128" status="PASS">
+        <test-method signature="verifyAmazonLaunch()[pri:0, instance:Mytest.AmazonGridTest@5876a9af]" started-at="2026-01-30T00:08:39 IST" name="verifyAmazonLaunch" finished-at="2026-01-30T00:08:40 IST" duration-ms="622" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAmazonTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Mytest.AmazonGridTest@5876a9af]" started-at="2026-01-29T23:53:17 IST" name="tearDown" finished-at="2026-01-29T23:53:18 IST" duration-ms="715" status="PASS">
+        </test-method> <!-- verifyAmazonLaunch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Mytest.AmazonGridTest@5876a9af]" started-at="2026-01-30T00:08:40 IST" name="tearDown" finished-at="2026-01-30T00:08:41 IST" duration-ms="1006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
